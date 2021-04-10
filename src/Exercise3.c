@@ -17,7 +17,7 @@ int main(int argc, char *argv[]) {
 	//Your codes here
 	int temp = testcase;
 
-	for (int i = 2; i <= sqrt(temp); i++)
+	for (int i = 2; i <= temp; i++)
 	{
 		while(testcase % i == 0)
 		{
@@ -25,10 +25,10 @@ int main(int argc, char *argv[]) {
 			printf("%i", i);
 			if(testcase > 1)
 				printf(" * ");
-			else
-				return 0;
+			
 		}
 	}
-	printf("%i", testcase);
+
+
 	return 0;
 }

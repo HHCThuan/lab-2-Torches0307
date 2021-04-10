@@ -22,6 +22,7 @@ int main(int argc, char *argv[]) {
 	
 	for(int i = n % 2 + 2; i <= n; i += 2)
 		result *= i;
+		
 	printf("%d", result);
 	return 0;
 }
